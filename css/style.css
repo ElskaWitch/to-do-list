@@ -1,0 +1,25 @@
+.bg {
+  background: rgb(229, 126, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(178, 9, 220) 12%,
+    rgba(6, 132, 216, 1) 100%
+  );
+}
+.barre1 {
+  width: 10%;
+  height: 39px;
+}
+.barre2 {
+  width: 25%;
+  height: 55px;
+}
+.barre1,
+.barre2 {
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
