@@ -18,13 +18,17 @@
       <div class="container text-center mt-5 text-white">
         <h1>To do list with <span class="text-warning">JS</span></h1>
       </div>
-      <div class="text-center mt-5">
+      <div class="text-center mt-5" id="newtask">
         <input
           type="text"
           class="mr-3 barre1"
           placeholder="   Nouvelle tâche..."
+          id="todo-input"
         />
-        <button class="rounded bg-primary text-white border-primary btn">
+        <button
+          class="rounded bg-primary text-white border-primary btn"
+          id="push"
+        >
           Ajouter
         </button>
       </div>
@@ -32,7 +36,7 @@
         <p>Le 15/06/2022</p>
       </div>
       <div class="text-center mt-4">
-        <input type="text" class="barre2" />
+        <input type="text" class="barre2" id="task" />
       </div>
     </div>
 
