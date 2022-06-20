@@ -11,8 +11,11 @@
   height: 39px;
 }
 .barre2 {
-  width: 25%;
-  height: 55px;
+  background-color: white;
+  margin: 3% auto;
+  padding: 2%;
+  width: 60%;
+  cursor: pointer;
 }
 .barre1,
 .barre2 {
@@ -20,6 +23,11 @@
 }
 
 h1 {
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(0, 187, 91);
 }
